@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        build 'vfdf'
+        build 'Builds/build 1'
       }
     }
   }
